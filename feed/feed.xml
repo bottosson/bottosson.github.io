@@ -188,6 +188,7 @@ float f_inv(float x)
 &lt;p&gt;The same thing can also be done with color management libraries where available, which also helps when dealing with more color spaces.&lt;/p&gt;
 &lt;p&gt;Perceptual representations for image processing is a less explored area. There are models aimed at understanding &lt;a href=&quot;https://en.wikipedia.org/wiki/Color_appearance_model&quot;&gt;color appearance&lt;/a&gt; that can be used for processing as well, but that isn’t without issues.&lt;/p&gt;
 &lt;p&gt;In a series of future posts I will go look more practically at how color can be represented in the best way for image processing and how to design a better color picker.&lt;/p&gt;
+&lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;The images in this post have been generated using &lt;a href=&quot;https://www.python.org/&quot;&gt;python&lt;/a&gt;, &lt;a href=&quot;https://bottosson.github.io/https://jupyter.org/&quot;&gt;jupyter&lt;/a&gt;, &lt;a href=&quot;https://numpy.org/&quot;&gt;numpy&lt;/a&gt;, &lt;a href=&quot;https://matplotlib.org/&quot;&gt;matplotlib&lt;/a&gt;, &lt;a href=&quot;https://github.com/nschloe/colorio&quot;&gt;colorio&lt;/a&gt; and &lt;a href=&quot;https://github.com/colour-science/colour&quot;&gt;colour&lt;/a&gt;.&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;The perceptual color blending has been done with &lt;a href=&quot;https://en.wikipedia.org/wiki/OSA-UCS&quot;&gt;OSA-UCS&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
