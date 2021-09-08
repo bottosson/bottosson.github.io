@@ -1,0 +1,118 @@
+body 
+{
+    background-color: rgb(119,119,119);
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+h2
+{
+    margin: 10px 10px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+h2.free
+{
+    display: table;
+    margin: 10px 10px 0px 10px;
+    padding:0px 5px 0px 5px;
+    color:rgb(60,60,60);
+    background-color:rgb(185,185,185);
+}
+section
+{
+    display: table;
+    max-width: 960px;
+    margin: 10px 10px 0px 10px;
+    padding:0px 15px 0px 15px;
+    color:rgb(60,60,60);
+    background-color:rgb(185,185,185);
+}
+a:link 
+{
+    color: #1b52aa;
+}
+a:visited 
+{
+    color: #1b52aa;
+}
+a:active 
+{
+    color: #1b52aa;
+} 
+canvas
+{
+    image-rendering: crisp-edges;
+}
+div.colorpicker
+{
+    position: relative; 
+    height: 300px; 
+    width: 320px
+}
+svg.colorpicker
+{
+    position: absolute; 
+    left: 0; 
+    pointer-events: none;
+}
+canvas.colorpicker_square
+{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+canvas.colorpicker_slider
+{
+    position: absolute;
+    left: 287px;
+    top: 10px;
+}
+td
+{
+    padding: 0px 15px 0px 0px;
+}
+div.swatch
+{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+}
+label
+{
+    text-align: center;
+    display:inline-block;
+    width:12px;
+}
+input
+{
+    border: 1px solid rgba(0,0,0,0.333);
+    border-radius: 4px;
+    text-align: right; 
+    font-family: monospace;
+    color:rgb(30,30,30);
+    background-color: rgba(255,255,255,0.5);
+}
+.hex_input
+{
+    width: 65px;
+}
+.value_input
+{
+    width: 56px; 
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item
+{
+    padding: 0px 10px 0px 0px;
+}
+
+@media (max-width: 800px) 
+{
+    .flex-container 
+    {
+        flex-direction: column;
+    }
+}
