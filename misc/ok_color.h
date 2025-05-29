@@ -1,5 +1,5 @@
 #pragma once
-// Copyright(c) 2021 Björn Ottosson
+// Copyright(c) 2021 BjÃ¶rn Ottosson
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this softwareand associated documentation files(the "Software"), to deal in
@@ -667,10 +667,7 @@ HSV srgb_to_okhsv(RGB rgb)
 	RGB rgb_scale = oklab_to_linear_srgb({ L_vt, a_ * C_vt, b_ * C_vt });
 	float scale_L = cbrtf(1.f / fmax(fmax(rgb_scale.r, rgb_scale.g), fmax(rgb_scale.b, 0.f)));
 
-	L = L / scale_L;
-	C = C / scale_L;
-
-	C = C * toe(L) / L;
+	L = L / scale_L;	
 	L = toe(L);
 
 	// we can now compute v and s:
